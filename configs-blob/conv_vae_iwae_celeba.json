@@ -1,0 +1,18 @@
+{
+    "img_size": 32,
+    "save_dir": "/data/ziz/jxu/save_dirs/model_celeba_conv_vae_iwae_blob",
+    "data_set": "celeba",
+    "save_interval": 5,
+    "batch_size": 32,
+    "reg_type": "kld",
+    "beta": 1,
+    "nonlinearity":"elu",
+    "learning_rate": 0.0001,
+    "nr_logistic_mix": 10,
+    "sample_range": 1.0,
+    "network_type": "large",
+    "z_dim": 32,
+    "mode": "train",
+    "mask_type": "random blobs",
+    "exp_name": "celeba_conv_vae_iwae_blob"
+}

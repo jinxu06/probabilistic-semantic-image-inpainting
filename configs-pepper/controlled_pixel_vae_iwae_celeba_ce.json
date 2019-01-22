@@ -1,0 +1,22 @@
+{
+    "img_size": 32,
+    "save_dir": "/data/ziz/jxu/save_dirs/model_celeba_controlled_pixel_vae_iwae_mmd_ce_pepper",
+    "data_set": "celeba",
+    "save_interval": 10,
+    "batch_size": 8,
+    "reg_type": "mmd",
+    "beta": 2e6,
+    "nonlinearity":"elu",
+    "learning_rate": 0.0001,
+    "nr_resnet": 5,
+    "nr_filters": 100,
+    "nr_logistic_mix": 10,
+    "sample_range": 1.0,
+    "network_type": "large",
+    "mode": "train",
+    "z_dim": 32,
+    "phase": "ce",
+    "pvae_dir": "",
+    "mask_type": "pepper",
+    "exp_name": "celeba_controlled_pixel_vae_iwae_mmd_ce_pepper"
+}

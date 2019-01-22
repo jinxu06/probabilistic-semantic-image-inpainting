@@ -1,0 +1,17 @@
+{
+    "img_size": 32,
+    "save_dir": "/data/ziz/jxu/save_dirs/model_church_outdoor_pixel_constrained_cnn_blob",
+    "data_set": "church_outdoor",
+    "save_interval": 5,
+    "batch_size": 32,
+    "nonlinearity":"elu",
+    "learning_rate": 0.0001,
+    "nr_resnet": 5,
+    "nr_filters": 100,
+    "nr_logistic_mix": 10,
+    "sample_range": 1.0,
+    "network_type": "large",
+    "mode": "train",
+    "mask_type": "random blobs",
+    "exp_name": "church_outdoor_pixel_constrained_cnn_blob"
+}

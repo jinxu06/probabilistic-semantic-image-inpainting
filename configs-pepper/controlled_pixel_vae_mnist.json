@@ -1,0 +1,22 @@
+{
+    "img_size": 28,
+    "save_dir": "/data/ziz/jxu/save_dirs/model_mnist_controlled_pixel_vae_mmd_pvae_pepper",
+    "data_set": "binarized-mnist",
+    "save_interval": 5,
+    "batch_size": 128,
+    "reg_type": "mmd",
+    "beta": 1e4,
+    "nonlinearity":"elu",
+    "learning_rate": 0.0001,
+    "nr_resnet": 3,
+    "nr_filters": 50,
+    "nr_logistic_mix": 10,
+    "sample_range": 1.0,
+    "network_type": "binary",
+    "mode": "train",
+    "z_dim": 32,
+    "phase": "pvae",
+    "pvae_dir": "",
+    "mask_type": "pepper",
+    "exp_name": "mnist_controlled_pixel_vae_mmd_pvae_pepper"
+}
