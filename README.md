@@ -2,16 +2,16 @@
 
 ## How to use:
 
-### Runing training:
+### Run training:
 ```
 python bidirectional_pixel_cnn.py configs/bidirectional_pixel_cnn_mnist.json --gpus 0,1 --mode train
 ```
-### Runing eval:
+### Run eval:
 ```
 python bidirectional_pixel_cnn.py configs/bidirectional_pixel_cnn_mnist.json --gpus 0 --mode test
 ```
 
-### Runing inpainting:
+### Run inpainting:
 ```
 python bidirectional_pixel_cnn.py configs/bidirectional_pixel_cnn_mnist.json --gpus 0 --mode inpainting
 ```
